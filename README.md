@@ -13,7 +13,7 @@
   https://www.youtube.com/watch?v=djnqoEO2rLc
   https://www.vagrantup.com/docs/installation/
 
-  ##Running on your local computer
+  ## Running on your local computer
   Using a command prompt such as Git Bash, change directory to the location of the "vagrant" folder. Start up the vagrant virtual machine and then login to it. Next, change directory to the location of the "tournament" folder. Now run the test program using the command "python tournament_test.py". Succesful result after running the programming will print out the following on the command prompt:
 
   1. countPlayers() returns 0 after initial deletePlayers() execution.
