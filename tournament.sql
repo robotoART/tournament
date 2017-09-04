@@ -10,10 +10,11 @@ DROP DATABASE IF EXISTS tournament;
 
 CREATE DATABASE tournament;
 
+\c tournament;
+
 DROP VIEW IF EXISTS standings CASCADE;
 DROP TABLE IF EXISTS matches CASCADE;
 DROP TABLE IF EXISTS players CASCADE;
-
 
 CREATE TABLE players ( playerid SERIAL PRIMARY KEY,
                         playername text );
